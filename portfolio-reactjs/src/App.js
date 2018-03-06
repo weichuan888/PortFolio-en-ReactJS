@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Head from './Head';
 import PremierComponent from './premierComponent';
+import DeuxiemeComponent from './deuxiemeComponent';
+import TroisiemeComponent from './troisiemeComponent';
 
 class App extends Component {
   render() {
@@ -10,6 +12,8 @@ class App extends Component {
       <div className="App">
         <Head/>
         <PremierComponent/>
+        <DeuxiemeComponent/>
+        <TroisiemeComponent/>
       </div>
     );
   }

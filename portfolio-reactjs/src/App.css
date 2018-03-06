@@ -4,13 +4,12 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
 }
 
 .App-header {
   background-color: #222;
   height: 150px;
-  padding: 20px;
+
   color: white;
 }
 
@@ -19,7 +18,7 @@
 }
 
 .App-intro {
-  font-size: large;
+  /* font-size: large; */
 }
 
 @keyframes App-logo-spin {
@@ -28,6 +27,7 @@
 }
 .headUp {
   background-color: #1C3041;
+  width: 100%;
 }
 .headUp p {
   color: #FFA552;
@@ -35,4 +35,65 @@
   width: 30%;
   height: 100%;
   font-size: 1.6em;
+}
+
+.First {
+  width: 100%;
+  height: 850px;
+  background-color: #AB2727;
+
+}
+
+.First img {
+  width: 250px;
+  height: 250px;
+  margin-top: 7%;
+}
+.First h1 {
+  color: #FFA552;
+  font-size: 2.5em;
+}
+
+.First p {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  height: 200px;
+}
+
+.logo {
+  display: inline-flex;
+  width: 60%;
+}
+.logo .fa-2x {
+  color: #FFFFFF;
+}
+.logo a {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.Second {
+  width: 100%;
+  height: 800px;
+  background-color: #FCDE9C;
+}
+
+.title h2 {
+  color :black;
+  width: 30%;
+  font-size: 2.5em;
+  padding-top: 2%;
+}
+
+.Third {
+  width: 100%;
+  height: 800px;
+  background-color: #AB2727;
+}
+
+.work_Contenu .work_Left{
+  float: left;
+}
+.work_Contenu .work_Right {
+  float: right;
 }
