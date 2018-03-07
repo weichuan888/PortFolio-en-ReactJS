@@ -35,8 +35,18 @@
   display: inline-block;
   width: 30%;
   height: 100%;
-  font-size: 1.6em;
+  font-size: 1.8em;
+  font-weight: bold;
 }
+.headUp p a {
+  color:#FFA552;
+}
+
+.headUp p a:link {
+  text-decoration: none;
+}
+
+
 
 .First {
   width: 100%;
@@ -77,6 +87,7 @@
   width: 100%;
   height: 800px;
   background-color: #FCDE9C;
+  position: relative;
 }
 
 .title h2 {
@@ -87,15 +98,77 @@
   padding-bottom: 2%;
   margin: 0%;
 }
-.timeline {
-  border-right: 10px solid #AB2727;
+.border-right{
+  border-right: 5px solid #AB2727;
   width: 50%;
-  height: 80%;
+  height: 75%;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #AB2727;
+  position: absolute;
+  /* left: 47.55%;
+  top: 10%; */
+  left: -95%;
+  top: -160px;
+
+}
+
+
+.round {
+  background-color: #AB2727;
+  width: 2%;
+  height: 5%;
+  border-radius: 100%;
+  position: absolute;
+  border: 2px solid black;
+  left: 49.15%;
+  top: 30%;
+  box-sizing: border-box;
+}
+.round2 {
+  background-color: #AB2727;
+  width: 2%;
+  height: 5%;
+  border-radius: 100%;
+  position: absolute;
+  border: 2px solid black;
+  left: 49.15%;
+  top: 45%;
+  box-sizing: border-box;
+}
+
+.round3 {
+  background-color: #AB2727;
+  width: 2%;
+  height: 5%;
+  border-radius: 100%;
+  position: absolute;
+  border: 2px solid black;
+  left: 49.15%;
+  top: 60%;
+  box-sizing: border-box;
+}
+
+.round4 {
+  background-color: #AB2727;
+  width: 2%;
+  height: 5%;
+  border-radius: 100%;
+  position: absolute;
+  border: 2px solid black;
+  left: 49.15%;
+  top: 75%;
+  box-sizing: border-box;
 }
 
 .Third {
   width: 100%;
-  height: 800px;
+  height: 625px;
   background-color: #AB2727;
 }
 .work_Contenu {
@@ -104,7 +177,7 @@
 }
 .work_Contenu .work_Left{
   /* border: 2px solid black; */
-  width: 35%;
+  width: 50%;
 }
 .work_Contenu .work_Left h4 {
   color: #FCDE9C;
@@ -113,12 +186,15 @@
 .work_Contenu .work_Left h3 {
   color: white;
   font-size: 2.5em;
+  border-bottom: 2px solid white;
+  width: 40%;
+  margin: auto;
 }
 
 .work_Contenu .work_Right {
-  width: 65%;
+  width: 50%;
   /* border: 2px solid black; */
-  margin-top: 3.5%;
+  /* margin-top: 3.5%; */
 
 }
 .work_Contenu .work_Right h5 {
@@ -130,7 +206,7 @@
   font-size: 1.2em;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 80%;
   text-align: justify;
 }
 
@@ -149,7 +225,11 @@
   width: 200px;
   height: 200px;
   /* border: 2px solid #AB2727; */
-  margin: auto;
+  /* margin: auto; */
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 18%;
+
 }
 
 .polygones .carre img {
