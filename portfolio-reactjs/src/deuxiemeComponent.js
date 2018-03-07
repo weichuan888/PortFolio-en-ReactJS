@@ -6,6 +6,9 @@ export default class DeuxiemeComponent extends React.Component {
     return(
       <div className="Second">
         <Title h2='Education'/>
+        <div className="timeline">
+
+        </div>
       </div>
     );
   }
