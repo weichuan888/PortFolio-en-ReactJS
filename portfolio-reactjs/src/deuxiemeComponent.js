@@ -5,7 +5,7 @@ export default class DeuxiemeComponent extends React.Component {
   render() {
     return(
       <div className="Second">
-        <Title/>
+        <Title h2='Education'/>
       </div>
     );
   }

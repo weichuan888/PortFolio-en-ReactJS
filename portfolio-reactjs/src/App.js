@@ -5,6 +5,9 @@ import Head from './Head';
 import PremierComponent from './premierComponent';
 import DeuxiemeComponent from './deuxiemeComponent';
 import TroisiemeComponent from './troisiemeComponent';
+import QuatriemeComponent from './quatriemeComponent';
+import CinquiemeComponent from './cinquiemeComponent';
+import Footer from './footer';
 
 class App extends Component {
   render() {
@@ -14,6 +17,9 @@ class App extends Component {
         <PremierComponent/>
         <DeuxiemeComponent/>
         <TroisiemeComponent/>
+        <QuatriemeComponent/>
+        <CinquiemeComponent/>
+        <Footer/>
       </div>
     );
   }

@@ -28,6 +28,7 @@
 .headUp {
   background-color: #1C3041;
   width: 100%;
+
 }
 .headUp p {
   color: #FFA552;
@@ -79,7 +80,7 @@
 }
 
 .title h2 {
-  color :black;
+  color: #1C3041;
   width: 30%;
   font-size: 2.5em;
   padding-top: 2%;
@@ -90,10 +91,91 @@
   height: 800px;
   background-color: #AB2727;
 }
-
-.work_Contenu .work_Left{
-  float: left;
+.work_Contenu {
+  width: 100%;
+  display: inline-flex;
 }
+.work_Contenu .work_Left{
+  /* border: 2px solid black; */
+  width: 35%;
+}
+.work_Contenu .work_Left h4 {
+  color: #FCDE9C;
+  font-size: 1.6em;
+}
+.work_Contenu .work_Left h3 {
+  color: white;
+  font-size: 2.5em;
+}
+
 .work_Contenu .work_Right {
-  float: right;
+  width: 65%;
+  /* border: 2px solid black; */
+  margin-top: 3.5%;
+
+}
+.work_Contenu .work_Right h5 {
+  color: #FCDE9C;
+  font-size: 1.6em;
+}
+.work_Contenu .work_Right p {
+  color: white;
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  text-align: justify;
+}
+
+.Skill {
+  width: 100%;
+  height: 100%;
+  background-color: #FCDE9C;
+}
+.polygones {
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+
+.polygones .carre {
+  width: 200px;
+  height: 200px;
+  /* border: 2px solid #AB2727; */
+  margin: auto;
+}
+
+.polygones .carre img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.polygones .carre:hover {
+  border-radius: 100%;
+  background-color: #AB2727;
+}
+
+.Projets {
+  width: 100%;
+  height: 800px;
+  background-color: #AB2727;
+}
+.Liste {
+  display: flex;
+  margin-bottom: 5%;
+}
+.rectangle {
+  background-color: #FCDE9C;
+  width: 300px;
+  height: 250px;
+  border: 2px solid black;
+  margin: auto;
+
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #1C3041;
 }
