@@ -32,15 +32,32 @@
 .headUp {
   background-color: #1c3041;
   width: 100%;
+  height: 125px;
 }
 .headUp p {
   color: #fcde9c;
   display: inline-block;
-  width: 30%;
+  width: 25%;
   height: 100%;
   font-size: 1.8em;
   font-weight: bold;
+  padding-top: 10px;
 }
+.headUp p a:hover {
+  color: #fcde9c;
+  animation: headupTitle 5s infinite;
+}
+
+@keyframes headupTitle {
+  0% {
+  }
+  50% {
+    color: #ab2727;
+    background-color: #fcde9c;
+    font-size: 2em;
+  }
+}
+
 .headUp p a {
   color: #fcde9c;
 }
@@ -64,11 +81,15 @@
   color: #fcde9c;
   font-size: 2.5em;
 }
+.First h2 {
+  color: #fcde9c;
+  font-size: 2.2em;
+}
 
 .First p {
   color: #fcde9c;
   font-size: 1.5em;
-  height: 200px;
+  height: 150px;
 }
 
 .logo {

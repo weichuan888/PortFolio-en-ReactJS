@@ -4,10 +4,10 @@ import Title from "./Title";
 export default class DeuxiemeComponent extends React.Component {
   render() {
     return (
-      <div id="Edu" className="Second">
+      <div className="Second" id="eduedu">
         <Title h2="Education" />
         <div className="border-right">
-          <div className="round" onclick="Educat()">
+          <div className="round">
             <p id="rond1"> </p>
             <div className="triangle" />
           </div>
