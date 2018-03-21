@@ -22,16 +22,19 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 .headUp {
-  background-color: #1C3041;
+  background-color: #1c3041;
   width: 100%;
-
 }
 .headUp p {
-  color: #FFA552;
+  color: #ffa552;
   display: inline-block;
   width: 30%;
   height: 100%;
@@ -39,20 +42,17 @@
   font-weight: bold;
 }
 .headUp p a {
-  color:#FFA552;
+  color: #ffa552;
 }
 
 .headUp p a:link {
   text-decoration: none;
 }
 
-
-
 .First {
   width: 100%;
-  height: 850px;
-  background-color: #AB2727;
-
+  height: 949px;
+  background-color: #ab2727;
 }
 
 .First img {
@@ -61,12 +61,12 @@
   margin-top: 7%;
 }
 .First h1 {
-  color: #FFA552;
+  color: #ffa552;
   font-size: 2.5em;
 }
 
 .First p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1.5em;
   height: 200px;
 }
@@ -76,51 +76,48 @@
   width: 60%;
 }
 .logo .fa-3x {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .logo a {
   margin-left: auto;
   margin-right: auto;
-
 }
 .Second {
   width: 100%;
   height: 800px;
-  background-color: #FCDE9C;
+  background-color: #fcde9c;
   position: relative;
 }
 
 .title h2 {
-  color: #1C3041;
+  color: #1c3041;
   width: 35%;
   font-size: 4em;
   padding-top: 2%;
   padding-bottom: 2%;
   margin: 0%;
 }
-.border-right{
-  border-right: 5px solid #AB2727;
+.border-right {
+  border-right: 5px solid #ab2727;
   width: 50%;
   height: 75%;
 }
 
 .triangle {
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 100px solid #AB2727;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #ab2727;
   position: absolute;
   /* left: 47.55%;
   top: 10%; */
   left: -95%;
   top: -160px;
-
 }
 
-
 .round {
-  background-color: #AB2727;
+  background-color: #ab2727;
   width: 2%;
   height: 5%;
   border-radius: 100%;
@@ -131,7 +128,7 @@
   box-sizing: border-box;
 }
 .round2 {
-  background-color: #AB2727;
+  background-color: #ab2727;
   width: 2%;
   height: 5%;
   border-radius: 100%;
@@ -143,7 +140,7 @@
 }
 
 .round3 {
-  background-color: #AB2727;
+  background-color: #ab2727;
   width: 2%;
   height: 5%;
   border-radius: 100%;
@@ -155,7 +152,7 @@
 }
 
 .round4 {
-  background-color: #AB2727;
+  background-color: #ab2727;
   width: 2%;
   height: 5%;
   border-radius: 100%;
@@ -169,18 +166,18 @@
 .Third {
   width: 100%;
   height: 625px;
-  background-color: #AB2727;
+  background-color: #ab2727;
 }
 .work_Contenu {
   width: 100%;
   display: inline-flex;
 }
-.work_Contenu .work_Left{
+.work_Contenu .work_Left {
   /* border: 2px solid black; */
   width: 50%;
 }
 .work_Contenu .work_Left h4 {
-  color: #FCDE9C;
+  color: #fcde9c;
   font-size: 1.6em;
 }
 .work_Contenu .work_Left h3 {
@@ -195,10 +192,9 @@
   width: 50%;
   /* border: 2px solid black; */
   /* margin-top: 3.5%; */
-
 }
 .work_Contenu .work_Right h5 {
-  color: #FCDE9C;
+  color: #fcde9c;
   font-size: 1.6em;
 }
 .work_Contenu .work_Right p {
@@ -213,7 +209,7 @@
 .Skill {
   width: 100%;
   height: 100%;
-  background-color: #FCDE9C;
+  background-color: #fcde9c;
 }
 .polygones {
   width: 100%;
@@ -229,40 +225,37 @@
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 18%;
-
 }
 
 .polygones .carre img {
   width: 100%;
   height: 100%;
-
 }
 
 .polygones .carre:hover {
   border-radius: 100%;
-  background-color: #AB2727;
+  background-color: #ab2727;
 }
 
 .Projets {
   width: 100%;
   height: 800px;
-  background-color: #AB2727;
+  background-color: #ab2727;
 }
 .Liste {
   display: flex;
   margin-bottom: 5%;
 }
 .rectangle {
-  background-color: #FCDE9C;
+  background-color: #fcde9c;
   width: 300px;
   height: 250px;
   border: 2px solid black;
   margin: auto;
-
 }
 
 .footer {
   width: 100%;
   height: 100px;
-  background-color: #1C3041;
+  background-color: #1c3041;
 }
