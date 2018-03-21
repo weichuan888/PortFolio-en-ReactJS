@@ -9,7 +9,9 @@ export default class PremierComponent extends React.Component {
         <div className="HeadPic">
           <img src={photoPro} alt="y-y" />
         </div>
-        <h1>Junior Web Developer</h1>
+        <h1>Weichuan Tran</h1>
+        <h2>Junior Web Developer</h2>
+
         <p>
           I am a Junior Web Developer who wants to develop in Front-End.<br />
           I like challenges and learning new technologies to deepen my skills.<br />
