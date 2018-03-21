@@ -57,8 +57,9 @@
 
 .First img {
   width: 250px;
-  height: 250px;
+  height: 340px;
   margin-top: 7%;
+  border-radius: 100%;
 }
 .First h1 {
   color: #fcde9c;

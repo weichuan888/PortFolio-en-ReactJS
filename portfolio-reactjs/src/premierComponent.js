@@ -1,12 +1,13 @@
 import React from "react";
 import Logo from "./logo";
+import photoPro from "./asset/profilweichuan.png";
 
 export default class PremierComponent extends React.Component {
   render() {
     return (
       <div className="First">
         <div className="HeadPic">
-          <img src="../weichuanProfil.png" alt="y-y" />
+          <img src={photoPro} alt="y-y" />
         </div>
         <h1>Junior Web Developer</h1>
         <p>
