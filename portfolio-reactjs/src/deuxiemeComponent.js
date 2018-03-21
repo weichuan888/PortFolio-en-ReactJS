@@ -1,31 +1,21 @@
-import React from 'react';
-import Title from './Title';
+import React from "react";
+import Title from "./Title";
 
 export default class DeuxiemeComponent extends React.Component {
   render() {
-    return(
+    return (
       <div id="Edu" className="Second">
-        <Title h2='Education'/>
+        <Title h2="Education" />
         <div className="border-right">
-
-          <div className="round">
-            <div className="triangle">
-
-            </div>
+          <div className="round" onclick="Educat()">
+            <p id="rond1"> </p>
+            <div className="triangle" />
           </div>
-          <div className="round2">
-
-          </div>
-          <div className="round3">
-
-          </div>
-          <div className="round4">
-
-          </div>
+          <div className="round2" />
+          <div className="round3" />
+          <div className="round4" />
         </div>
-        <div className="border-left">
-
-        </div>
+        <div className="border-left" />
       </div>
     );
   }
