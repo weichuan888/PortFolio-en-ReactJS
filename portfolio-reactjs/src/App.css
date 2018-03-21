@@ -61,12 +61,12 @@
   margin-top: 7%;
 }
 .First h1 {
-  color: #ffa552;
+  color: #fcde9c;
   font-size: 2.5em;
 }
 
 .First p {
-  color: #ffffff;
+  color: #fcde9c;
   font-size: 1.5em;
   height: 200px;
 }
@@ -76,7 +76,7 @@
   width: 60%;
 }
 .logo .fa-3x {
-  color: #ffffff;
+  color: #fcde9c;
 }
 .logo a {
   margin-left: auto;
