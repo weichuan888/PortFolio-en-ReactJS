@@ -51,7 +51,7 @@
 
 .First {
   width: 100%;
-  height: 949px;
+  height: 950px;
   background-color: #ab2727;
 }
 
@@ -267,6 +267,11 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .First p {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 300px) {
   .First p {
     height: 200px;
   }
