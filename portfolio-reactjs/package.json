@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://weichuan888.github.io/PortFolio-en-ReactJS",
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-fontawesome": "^1.6.1",
