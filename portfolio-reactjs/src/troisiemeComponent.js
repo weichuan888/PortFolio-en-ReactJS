@@ -3,10 +3,14 @@ import Title from "./Title";
 import Work from "./work";
 
 export default class TroisiemeComponent extends React.Component {
+  /*   var color = document.getElementsByClassName('wowo');
+  color.classList.remove('wowo');
+
+ */
   render() {
     return (
       <div className="Third" id="workwork">
-        <Title h2="Work" />
+        <Title h2="Work" className="wowo" />
         <Work
           h4="July 2017"
           h3="BSG du Shape"
